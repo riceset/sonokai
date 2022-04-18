@@ -742,8 +742,8 @@ highlight! link FloatermBorder Grey
 " }}}
 if has('nvim')
 " hrsh7th/nvim-cmp {{{
-call sonokai#highlight('CmpItemAbbrMatch', s:palette.green, s:palette.none, 'bold')
-call sonokai#highlight('CmpItemAbbrMatchFuzzy', s:palette.green, s:palette.none, 'bold')
+call sonokai#highlight('CmpItemAbbrMatch', s:palette.green, s:palette.green, 'bold')
+call sonokai#highlight('CmpItemAbbrMatchFuzzy', s:palette.green, s:palette.green, 'bold')
 highlight! link CmpItemAbbr Fg
 highlight! link CmpItemAbbrDeprecated Fg
 highlight! link CmpItemMenu Fg

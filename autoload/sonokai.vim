@@ -110,7 +110,7 @@ function! sonokai#get_palette(style) "{{{
           \ 'bg0':        ['NONE',   'NONE'],
           \ 'bg1':        ['NONE',   'NONE'],
           \ 'bg2':        ['NONE',   'NONE'],
-          \ 'bg3':        ['#3d4455',   '237'],
+          \ 'bg3':        ['NONE',   'NONE'],
           \ 'bg4':        ['NONE',   'NONE'],
           \ 'bg_red':     ['#ff6d7e',   '203'],
           \ 'diff_red':   ['#55393d',   '52'],
