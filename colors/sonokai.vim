@@ -746,7 +746,7 @@ call sonokai#highlight('CmpItemAbbrMatch', s:palette.green, s:palette.none, 'bol
 call sonokai#highlight('CmpItemAbbrMatchFuzzy', s:palette.green, s:palette.none, 'bold')
 highlight! link CmpItemAbbr Fg
 highlight! link CmpItemAbbrDeprecated Fg
-highlight! link CmpItemMenu Blue
+highlight! link CmpItemMenu Fg
 highlight! link CmpItemKind Blue
 highlight! link CmpItemKindText Fg
 highlight! link CmpItemKindMethod Green
