@@ -109,7 +109,7 @@ function! sonokai#get_palette(style) "{{{
           \ 'black':      ['#181a1c',   '237'],
           \ 'bg0':        ['NONE',   'NONE'],
           \ 'bg1':        ['NONE',   'NONE'],
-          \ 'bg2':        ['#373c4b',   '236'],
+          \ 'bg2':        ['NONE',   'NONE'],
           \ 'bg3':        ['#3d4455',   '237'],
           \ 'bg4':        ['#424b5b',   '237'],
           \ 'bg_red':     ['#ff6d7e',   '203'],
