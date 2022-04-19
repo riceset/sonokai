@@ -107,11 +107,11 @@ function! sonokai#get_palette(style) "{{{
   elseif a:style ==# 'atlantis'
     let palette = {
           \ 'black':      ['#181a1c',   '237'],
-          \ 'bg0':        ['NONE',   'NONE'],
-          \ 'bg1':        ['NONE',   'NONE'],
-          \ 'bg2':        ['NONE',   'NONE'],
+          \ 'bg0':        ['#2a2f38',   '235'],
+          \ 'bg1':        ['#333846',   '236'],
+          \ 'bg2':        ['#373c4b',   '236'],
           \ 'bg3':        ['#3d4455',   '237'],
-          \ 'bg4':        ['NONE',   'NONE'],
+          \ 'bg4':        ['#424b5b',   '237'],
           \ 'bg_red':     ['#ff6d7e',   '203'],
           \ 'diff_red':   ['#55393d',   '52'],
           \ 'bg_green':   ['#a5e179',   '107'],
