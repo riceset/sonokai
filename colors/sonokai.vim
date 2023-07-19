@@ -186,13 +186,13 @@ if s:configuration.enable_italic
   call sonokai#highlight('Type', s:palette.blue, s:palette.none, 'italic')
   call sonokai#highlight('Structure', s:palette.blue, s:palette.none, 'italic')
   call sonokai#highlight('StorageClass', s:palette.blue, s:palette.none, 'italic')
-  call sonokai#highlight('Identifier', s:palette.orange, s:palette.none, 'italic')
+  call sonokai#highlight('Identifier', s:palette.none, s:palette.none, 'italic')
   call sonokai#highlight('Constant', s:palette.orange, s:palette.none, 'italic')
 else
   call sonokai#highlight('Type', s:palette.blue, s:palette.none, 'italic')
   call sonokai#highlight('Structure', s:palette.blue, s:palette.none, 'italic')
   call sonokai#highlight('StorageClass', s:palette.blue, s:palette.none, 'italic')
-  call sonokai#highlight('Identifier', s:palette.orange, s:palette.none, 'italic')
+  call sonokai#highlight('Identifier', s:palette.none, s:palette.none, 'italic')
   call sonokai#highlight('Constant', s:palette.orange, s:palette.none, 'italic')
 endif
 call sonokai#highlight('PreProc', s:palette.red, s:palette.none, 'italic')
@@ -218,7 +218,9 @@ call sonokai#highlight('Float', s:palette.purple, s:palette.none)
 call sonokai#highlight('Function', s:palette.green, s:palette.none)
 call sonokai#highlight('Operator', s:palette.red, s:palette.none)
 call sonokai#highlight('Title', s:palette.red, s:palette.none, 'bold', 'italic')
-call sonokai#highlight('Tag', s:palette.orange, s:palette.none, 'italic')
+"
+call sonokai#highlight('Tag', s:palette.none, s:palette.none, 'italic')
+"
 call sonokai#highlight('Delimiter', s:palette.fg, s:palette.none, 'italic')
 if s:configuration.disable_italic_comment
   call sonokai#highlight('Comment', s:palette.grey, s:palette.none)
