@@ -221,7 +221,7 @@ call sonokai#highlight('Title', s:palette.red, s:palette.none, 'bold', 'italic')
 "
 call sonokai#highlight('Tag', s:palette.none, s:palette.none, 'italic')
 "
-call sonokai#highlight('Delimiter', s:palette.fg, s:palette.none, 'italic')
+call sonokai#highlight('Delimiter', s:palette.fg, s:palette.none)
 if s:configuration.disable_italic_comment
   call sonokai#highlight('Comment', s:palette.grey, s:palette.none)
   call sonokai#highlight('SpecialComment', s:palette.grey, s:palette.none)
