@@ -186,13 +186,13 @@ if s:configuration.enable_italic
   call sonokai#highlight('Type', s:palette.blue, s:palette.none, 'italic')
   call sonokai#highlight('Structure', s:palette.blue, s:palette.none, 'italic')
   call sonokai#highlight('StorageClass', s:palette.blue, s:palette.none, 'italic')
-  call sonokai#highlight('Identifier', s:palette.none, s:palette.none, 'italic')
+  call sonokai#highlight('Identifier', s:palette.none, s:palette.none)
   call sonokai#highlight('Constant', s:palette.orange, s:palette.none, 'italic')
 else
   call sonokai#highlight('Type', s:palette.blue, s:palette.none, 'italic')
   call sonokai#highlight('Structure', s:palette.blue, s:palette.none, 'italic')
   call sonokai#highlight('StorageClass', s:palette.blue, s:palette.none, 'italic')
-  call sonokai#highlight('Identifier', s:palette.none, s:palette.none, 'italic')
+  call sonokai#highlight('Identifier', s:palette.none, s:palette.none)
   call sonokai#highlight('Constant', s:palette.orange, s:palette.none, 'italic')
 endif
 call sonokai#highlight('PreProc', s:palette.red, s:palette.none, 'italic')
